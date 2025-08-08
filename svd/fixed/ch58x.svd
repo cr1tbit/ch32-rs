@@ -2040,10 +2040,10 @@
             </register>
             <register>
                 <name>R32_TMR0_FIFO</name>
-                <description>RO/WO, TMR0 FIFO register, only low 26 bit</description>
+                <description>RW, TMR0 FIFO register, only low 26 bit</description>
                 <addressOffset>0x10</addressOffset>
                 <size>32</size>
-                <access>read-only</access>
+                <access>read-write</access>
                 <resetValue>0x00000000</resetValue>
                 <fields>
                     <field>
